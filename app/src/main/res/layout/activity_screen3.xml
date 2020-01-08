@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".screen3"
+    android:padding="10dp">
+
+
+
+    <TableRow android:layout_height="wrap_content" android:layout_width="match_parent">
+
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text=""
+            />
+    </TableRow>
+    <TableRow android:layout_height="wrap_content" android:layout_width="match_parent">
+
+        <TextView
+            android:textColor="@color/colorAccent"
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name:"
+            android:textSize="@dimen/textView1"/>
+        />
+
+        <EditText
+            android:id="@+id/ed1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:inputType="textPersonName"
+            android:hint="Enter Your Name:"
+            android:textSize="20sp"/>
+    </TableRow>
+    <TableRow android:layout_height="wrap_content" android:layout_width="match_parent">
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone:"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/textView1" />
+        />
+
+        <EditText
+            android:id="@+id/ed2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginLeft="20dp"
+            android:inputType="textEmailAddress"
+            android:hint="Enter Your Email:"
+            android:textSize="20sp"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+
+            android:id="@+id/tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/textView1" />
+        />
+
+        <EditText
+            android:id="@+id/ed3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:ems="10"
+            android:hint="Enter Your Number:"
+            android:inputType="phone"
+            android:textSize="20sp" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <Button
+            android:id="@+id/login3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Log In"
+            android:layout_marginTop="200dp"
+            android:layout_marginLeft="20dp"/>
+    </TableRow>
+</TableLayout>
